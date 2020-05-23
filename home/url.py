@@ -6,3 +6,5 @@ urlpatterns = [
 urlpatterns += [
     path('pudge', pudge, name= 'pudge'),
     ]
+urlpatterns += [
+    path('antimage', antimage, name= 'antimage')]
